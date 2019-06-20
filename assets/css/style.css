@@ -1,0 +1,36 @@
+body{
+    background-image: url("../images/houndstooth-pattern.png");
+}
+
+img{
+    width: 100%;
+    margin: 5px;
+}
+
+.spacing{
+    margin-bottom: 10px;
+}
+
+.crystals{
+    /*I want these to be the same height*/
+    /*height: ;*/
+}
+
+#directions{
+
+}
+
+#totalScore{
+    font-size: 24px;
+    padding: 2px;
+}
+
+/*Placeholder color blocks to identify rows and columns*/
+.row{
+    background-color: aqua;
+    /*margin: 1px;*/
+}
+.col-md-3{
+    background-color: darkkhaki;
+    margin: 1px;
+}
