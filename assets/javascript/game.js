@@ -5,9 +5,7 @@ var crystalNum;
 var total = 0;
 
 $(document).ready(function(){
-    //display number that user should match
-    var displayNum = $("#num").text(randomNum);
-
+    
     //Create a variable to set equal to $("img")
     var crystalChosen = $("img");
 
@@ -15,6 +13,8 @@ $(document).ready(function(){
     function generateNum(){
         randomNum = Math.floor(Math.random() * (102)) + 19;
         console.log("Random number: ", randomNum);
+        //display number that user should match
+        var displayNum = $("#num").text(randomNum);
     };
     
     //function to create a random number for the crystals
