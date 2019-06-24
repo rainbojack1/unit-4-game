@@ -4,7 +4,9 @@ body{
 
 img{
     width: 100%;
-    margin: 5px;
+    height: 100%;
+    padding: 10px;
+    
 }
 
 .spacing{
@@ -32,5 +34,5 @@ img{
 }
 .col-md-3{
     background-color: darkkhaki;
-    margin: 1px;
+    
 }
