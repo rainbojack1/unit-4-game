@@ -3,6 +3,7 @@ var wins = 0;
 var losses = 0;
 var crystalNum;
 var total = 0;
+var clicks = 0;
 
 $(document).ready(function(){
     
@@ -39,7 +40,7 @@ $(document).ready(function(){
             setTimeout(function(){
                 alert("You win! Let's play again.");
                 resetGame();
-            }, 1000);    
+            }, 1000 * 0.5);    
             wins++;        
         }
     }
@@ -58,10 +59,14 @@ $(document).ready(function(){
         $("#totalScore").text(total);
         $("#wins").text(wins);
         $("#losses").text(losses);
+        $("#crystalValue").text(crystalAmt);
+        $("#clicks").text(clicks);
     };
 
     function resetGame(){
         total = 0;
+        crystalAmt = 0;
+        clicks = 0;
         updateStats();
         generateNum();
     };
@@ -69,14 +74,15 @@ $(document).ready(function(){
     //on click function
     $("img").click(function(){
         setCrystalNumber();
-        
+        clicks++;
         //display crystal amount based on which crystal was clicked
         //instead of using a bunch of if statements to determine which crystal was clicked I can use $(this) 
         console.log("this: ", $(this).attr("ammount"));
         var crystalScore = parseInt($(this).attr("ammount"));
         total += crystalScore;
         $("#totalScore").text(total);
-
+        $("#crystalValue").text(crystalAmt);
+        $("#clicks").text(clicks);
         //determine if the game has been won or lost
         determineWin();
         determineLose();

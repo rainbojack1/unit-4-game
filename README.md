@@ -1,30 +1,6 @@
 # unit-4-game
 # jQuery Assignment
 
-### Overview
-
-In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
-
-
-### Before You Begin
-
-1. Create a new GitHub repo called `unit-4-game`, then clone it to your computer.
-
-2. Inside the `unit-4-game` folder, create an `index.html` file.
-
-3. Still inside the `unit-4-game` directory, make a folder called `assets`.
-   * Inside the `assets` directory, make three additional folders: `javascript`, `css` and `images`.
-     * In the `javascript` folder, make a file called `game.js`.
-     * In the `css` folder, make a file called `style.css`.
-     * In the `css` folder, make a file called `reset.css`. Paste into it the code found from the Meyerweb Reset.
-     * In the images folder, save any of the images you plan on using.
-
-4. Set up your repository to deploy to Github Pages.
-
-5. Push the above changes to GitHub. 
-
-6. Choose whichever game you want to make from the choices below. The CrystalsCollector game is the recommended option, but if you are looking for an extra hard challenge then take a stab at the Star Wars exercise. (Note: Only choose the Star Wars Exercise if you are feeling very comfortable with the material covered in class. The Crystal Collector activity is plenty challenging enough!).
-
 ### Option One: CrystalsCollector Game (Recommended)
 
 ![Crystal Collector](Images/1-CrystalCollector.jpg)
@@ -89,9 +65,3 @@ Add a `README.md` to your repository describing the project. Here are some resou
 After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
 
 - - -
-
-### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
