@@ -9,17 +9,25 @@ img{
     
 }
 
+header{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
 .spacing{
     margin-bottom: 10px;
 }
 
 .crystals{
-    /*I want these to be the same height*/
-    /*height: ;*/
+    background-color: darkkhaki;
 }
 
 #directions{
-
+    font-style: italic;
+    text-align: center;
 }
 
 #totalScore{
@@ -37,10 +45,10 @@ img{
 
 /*Placeholder color blocks to identify rows and columns*/
 .row{
-    background-color: aqua;
+    /* background-color: aqua; */
     /*margin: 1px;*/
 }
 .col-md-3{
-    background-color: darkkhaki;
-    
+    /*background-color: darkkhaki;*/
+    /* border: 2px solid darkkhaki; */
 }
